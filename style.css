@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card:nth-child(1) {
+  position: relative;
+}
+
+.myBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
