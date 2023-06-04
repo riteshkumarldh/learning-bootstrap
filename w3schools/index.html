@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>w3schools - course page</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="py-4">
+      <div class="container d-flex justify-content-between align-items-center">
+        <figure>
+          <img width="55" src="./assets/img/logo.png" alt="logo" />
+        </figure>
+        <div class="d-flex align-items-center">
+          <a
+            href="https://www.w3schools.com/"
+            class="after text-decoration-none"
+            target="_blank"
+            >Back to main site</a
+          >
+          <a href="#" class="ps-4 text-decoration-none">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- main content -->
+    <main>
+      <!-- top section search -->
+      <section>
+        <div
+          class="container d-flex align-items-center justify-content-sm-between gap-5 flex-column flex-sm-row"
+        >
+          <input
+            data-input
+            class="rounded w-50"
+            type="search"
+            placeholder="search Courses"
+          />
+          <div class="py-2 w-50 px-5 rounded border border-2 border-dark">
+            <h4>Total Favourite Courses: <span data-count>0</span></h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- all the courses card here -->
+      <section class="mt-5">
+        <div class="container pb-5">
+          <h1 class="text-center">All Courses</h1>
+          <div class="row courses">
+            <!-- <div class="col-3">
+              <div class="card">
+                <div
+                  class="card-img-top d-flex align-items-center justify-content-center h2"
+                  style="
+                    color: #fdc0c7;
+                    height: 200px;
+                    background-color: #232532;
+                  "
+                >
+                  HTML
+                </div>
+                <div class="card-body">
+                  <p class="lead">Learn HTML</p>
+                  <hr />
+                  <small>
+                    Start learning HTML with w3schools fundamentals course. HTML
+                    is the standard markup language for creating web pages.
+                  </small>
+                  <figure>
+                    <img width="20" src="./assets/img/logo.png" alt="logo" />
+                  </figure>
+                  <hr />
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div>
+                      <h5>self-paced</h5>
+                      <h4 style="color: #04aa6d">$95</h4>
+                    </div>
+                    <div style="width: 15%">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="MuiSvgIcon-root MuiSvgIcon-colorAction"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        style="color: rgb(87, 86, 86)"
+                      >
+                        <path
+                          d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- bootstrap js -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

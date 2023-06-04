@@ -1,0 +1,36 @@
+.after {
+  position: relative;
+}
+
+.after::after {
+  margin-left: 10px;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1.5px;
+  background-color: #04aa6d;
+}
+
+a {
+  color: #04aa6d;
+  font-size: 0.95rem;
+}
+
+a:hover {
+  color: #04aa6d;
+  text-decoration: underline !important;
+}
+
+input {
+  height: 3rem;
+  outline: none;
+  padding: 0 10px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.saved svg {
+  fill: #04aa6d;
+}
